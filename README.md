@@ -106,7 +106,7 @@ This results in the following final dye image
 
 ![dyeAfterInvert](https://user-images.githubusercontent.com/22619455/199362028-70dff1fe-e224-4f59-9839-d861f941ed61.jpg)
 
-# Determe parasite having Cancer
+# Determine parasite having Cancer
 For deciding if the parasite has cancer or not, I count the pixels in the sensor image corresponding to the parasite body. Also I count the pixel in the dye image (masked with sensor image, to get dye inside parasite) corresponding to dye. Then I check if the number of dyed pixels is more than 10% of the parasite body pixels. If yes, then the parasite has cancer
 
 ```
